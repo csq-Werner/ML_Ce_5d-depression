@@ -16,7 +16,7 @@ from statistics import mean
 class Vectorize_Formula:
 
     def __init__(self):
-        elem_dict = pd.read_excel(r'elements.xlsx') # CHECK NAME OF FILE 
+        elem_dict = pd.read_excel(r'data/elements.xlsx') # CHECK NAME OF FILE 
         self.element_df = pd.DataFrame(elem_dict) 
         self.element_df.set_index('Symbol',inplace=True)
         self.column_names = []
