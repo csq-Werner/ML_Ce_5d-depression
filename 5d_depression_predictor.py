@@ -19,7 +19,7 @@ from sklearn import preprocessing
 import numpy as np
 
 #Step 1 
-DE = pd.read_excel('5d_depression_training_set.xlsx')
+DE = pd.read_excel('data/5d_depression_training_set.xlsx')
 array = DE.values
 X = array[:,2:10]
 Y = array[:,1]
